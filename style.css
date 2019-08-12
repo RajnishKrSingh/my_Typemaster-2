@@ -30,10 +30,11 @@ h1{
 
 #center {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -60px;
+    margin-top: -40px;
 }
 
 #circular {
@@ -500,3 +501,4 @@ footer {
     font-weight: bold;
     letter-spacing: 1px;
 }
+
